@@ -44,7 +44,7 @@ Any manual corrections, normalization steps, geocoding decisions, exclusions, or
 
 ## Interactive web version
 
-https://anneherz.github.io/ProM/assets/images/ProM_Weltkarte.html
+https://anneherz.github.io/ProM-interactive-maps/global/provenances/ProM_Weltkarte.html
 
 ## Technical information
 
