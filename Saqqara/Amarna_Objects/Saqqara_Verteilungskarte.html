@@ -206,8 +206,8 @@ var landmarks=[
 ];
 
 var map=L.map('map',{center:[29.869,31.220],zoom:14,minZoom:11,maxZoom:21});
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-  attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a> | <a href="https://www.prosopographia-memphitica.com">Prosopographia Memphitica</a>',subdomains:'abcd',maxZoom:21,maxNativeZoom:20
+L.tileLayer('https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}{r}.png?key=cb1_4310_2_824acd25487a56383e56ac24',{
+  attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions/">CARTO</a> | <a href="https://www.prosopographia-memphitica.com">Prosopographia Memphitica</a>',maxZoom:21,maxNativeZoom:20
 }).addTo(map);
 
 function getRadius(n){
